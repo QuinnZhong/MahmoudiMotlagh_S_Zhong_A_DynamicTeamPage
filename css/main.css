@@ -1,1 +1,71 @@
-main.css
+@charset "UTF-8";
+
+
+/*--general--*/
+
+body { 
+    background-image:url(../images/bc-blue.jpg);
+    opacity: 50;
+	background-repeat:repeat; background-position:center center;
+	background-color:#023154; font-size:16pt;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffff;
+    font-size: 30px;
+    align-content: center;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 14pt;
+    color: #ffff;
+    line-height: 35px;
+
+}
+
+/*--class--*/
+
+.hidden {
+    display: none;
+}
+
+
+
+/*--id--*/
+
+#container {
+    margin: 0px auto;
+    padding: 0px 15px 0px 15px;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#container #header {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #ffff;
+    margin-top: 150px;
+}
+
+#personList {
+   padding-left: 50px;
+   margin-top: 50px;
+   justify-content: space-between;
+}
+
+#personList img {
+    border-radius: 10px;
+    
+}
+
+
+
+
