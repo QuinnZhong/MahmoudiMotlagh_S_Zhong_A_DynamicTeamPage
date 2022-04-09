@@ -1,13 +1,14 @@
 @charset "UTF-8";
 
-
 /*--general--*/
 
 body { 
     background-image:url(../images/bc-blue.jpg);
     opacity: 50;
-	background-repeat:repeat; background-position:center center;
-	background-color:#023154; font-size:16pt;
+	  background-repeat:repeat; 
+    background-position:center center;
+	  background-color:#023154; 
+    font-size:16pt;
     font-weight: 400;
     font-family: Arial, Helvetica, sans-serif; 
 }
@@ -55,17 +56,37 @@ p {
     margin-top: 150px;
 }
 
-#personList {
-   padding-left: 50px;
-   margin-top: 50px;
-   justify-content: space-between;
+
+/*-- bio card css --*/ 
+.card {
+  background: rgb(39, 74, 124);
+  position: relative;
+  padding: 30px;
+  border-radius: 4px;
+  margin: 100px;
+  display: inline-block;
+  max-width: 300px;
 }
 
-#personList img {
-    border-radius: 10px;
-    
+.card__title {
+  font-weight: 400;
+  color: aquamarine;
+  margin-top: 30px;
+  margin-bottom: 10px
+}
+
+.bookmark {
+  display: block;
+  position: absolute;
+  right: 20px;
+  top: -10px;
+  width: 0;
+  background: transparent;
+  border: 20px solid rgb(129, 193, 204);
+  border-bottom-color: transparent;
 }
 
 
 
 
+  
